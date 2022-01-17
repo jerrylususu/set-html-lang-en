@@ -1,0 +1,16 @@
+{
+    "name": "Set html lang to en",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Set html lang to en",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "contextMenus"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
